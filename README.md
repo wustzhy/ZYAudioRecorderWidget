@@ -2,11 +2,11 @@
 ####an independent widget for audio recording, very easy to use
 
 ## usage here
-### step1
+### - step1
 ```
 #import "ZYVoiceView.h"     // usage of voice --- import header file
 ```
-### step2
+### - step2
 ```
     // ----------------- usage of voice begin ------------------
     CGFloat inputViewHeight = 45;
