@@ -1,7 +1,7 @@
 # ZYAudioRecorderWidget
 ####an independent widget for audio recording, very easy to use
 
-## usage here
+## Usage here
 ### - step1
 ```
 #import "ZYVoiceView.h"     // usage of voice --- import header file
@@ -34,7 +34,7 @@
 
 ```
 
-## to test recorded audio here
+## To test recorded audio here
 ```
 #import "XHVoiceCommonHelper.h" //测试save audio
 #import "XHAudioPlayerHelper.h" //测试play audio
