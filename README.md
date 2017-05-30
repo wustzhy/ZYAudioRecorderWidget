@@ -1,7 +1,7 @@
 # ZYAudioRecorderWidget
 an independent widget for audio recording, very easy to use</br>
 一个独立的录音按钮封装(自带->录音继续、结束的提示动画, 保存、时长、播放...)[写聊天专用哦^_^]
-## have a look at the screenshot
+## Have a look at the screenshot
 ![image](https://github.com/wustzhy/ZYAudioRecorderWidget/blob/master/screenshots/recording.png)
 ## Usage here
 ### - step1
