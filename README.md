@@ -1,5 +1,12 @@
 # ZYAudioRecorderWidget
-an independent widget for audio recording, very easy to use
+####an independent widget for audio recording, very easy to use
+
+## usage here
+### step1
+```
+#import "ZYVoiceView.h"     // usage of voice --- import header file
+```
+### step2
 ```
     // ----------------- usage of voice begin ------------------
     CGFloat inputViewHeight = 45;
@@ -25,4 +32,19 @@ an independent widget for audio recording, very easy to use
     [self.view addSubview:voiceView];
     // ----------------- usage of voice end ------------------
 
+```
+
+## to test recorded audio here
+```
+#import "XHVoiceCommonHelper.h" //测试save audio
+#import "XHAudioPlayerHelper.h" //测试play audio
+```
+```
+-(void)playVoiceAction{
+    
+    if([XHVoiceCommonHelper fileExistsAtPath:self.voicePath]){
+        
+     [[XHAudioPlayerHelper shareInstance] managerAudioWithFileName:self.voicePath toPlay:YES];
+    }
+}
 ```
